@@ -5,7 +5,7 @@ Currently only one macro is included. It makes it possible to
 include any Commodore BASIC V2 program in your assembler source.
 
 ## Usage
-Import the macro file into the assembler source file with the .import command
+Import the file basicmacro.asm into the assembler source file with the .import command
 
 The macro name is BasicProgram and it takes one argument which is a list of
 strings, where each string is one line of BASIC code:
